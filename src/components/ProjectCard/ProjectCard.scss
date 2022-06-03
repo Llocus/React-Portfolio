@@ -1,0 +1,76 @@
+.ProjectCard {
+    background-color: #242430;
+    box-shadow: 0 0.5em 1em 0.01em rgba(0, 0, 0, 0.356);
+    width: 34.5em;
+    height: 20em;
+    margin-right: 50em;
+    margin-bottom: 2em;
+    & .Lang {
+        font-size: 1.2em;
+        color: #4287f5;
+        margin-top: 1em;
+        margin-left: 1.5em;
+        max-width: 21em;
+    }
+    & .Title {
+        font-size: 1.5em;
+        margin-top: 0.5em;
+        margin-left: 1em;
+        margin-bottom: 1em;
+        max-width: 21em;
+        text-overflow:ellipsis;
+        max-height: 1.3em;
+        overflow:hidden;
+        text-overflow: ellipsis;
+    }
+    & .Description {
+        margin-left: 2em;
+        max-width: 27em;
+        height: 9em;
+        max-height: 9em;
+        font-size: 1.1em;
+    }
+    & .SeeMore {
+        margin-top: 0.6em;
+        margin-left: 2.5em;
+        max-width: 27em;
+        font-size: 1.3em;
+        height: 2em;
+        max-height: 2em;
+        color: #4287f5;
+        text-decoration: none;
+
+        a:link {
+            text-decoration: none;
+            color: #4287f5;
+        }
+          
+        a:visited {
+            text-decoration: none;
+            color: #4287f5;
+        }
+          
+        a:hover {
+            text-decoration: none;
+            color: #4287f5;
+        }
+          
+        a:active {
+            text-decoration: none;
+            color: #4287f5;
+        }
+    }
+}
+
+@media (max-width: 510.98px) {
+    .ProjectCard {
+        width: 50vh;
+    }
+}
+
+@media ( min-width: 510.99px) and ( max-width: 912.98px) {
+    .ProjectCard {
+        margin-left: 0.5em;
+        width: 70vh;
+    }
+}

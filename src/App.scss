@@ -1,0 +1,116 @@
+.App {
+  display: flex;
+  background-color: #1e1e28;
+  color: white;
+}
+
+.Banner {
+  margin-right: 5vh;
+  width: 70em;
+  height: 30em;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0.5em 0.5em 0.01em rgba(0, 0, 0, 0.205);
+  //position: relative;
+  //background-size:cover; 
+
+  & img {
+    width: 100%;
+    height: 65em;
+    max-width: 160em;
+    max-height: 160em;
+    margin: -33em 0 0 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+  }
+
+  & .BannerTitle {
+    position: absolute;
+    font-size: 5.5em;
+    margin-top: 1.2em;
+    padding-left: 0.5em;
+    text-shadow: 1.5px 3px rgba(0, 0, 0, 0.205);
+    z-index: 1;
+  }
+
+  & .TypingTag {
+    position: absolute;
+    font-size: 1.5em;
+    margin-top: 6em;
+    padding-top: 3.5em;
+    padding-left: 1em;
+    text-shadow: 1.5px 3px rgba(0, 0, 0, 0.205);
+    z-index: 1;
+  }
+
+  & .BannerButton{
+    position: absolute;
+    font-size: 1.7em;
+    margin-top: 11em;
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    //box-shadow: 0 0.5em 0.5em 0.01em rgba(0, 0, 0, 0.205);
+    //text-shadow: 1.5px 3px rgba(0, 0, 0, 0.205);
+    background-color: #4287f5;
+    color: rgba(0, 0, 0, 0.651);
+    //border: 10px black;
+    border-width: 0.5px;
+    border-radius: 0.3em;
+    border-color: #1e1e28;
+    //max-width: 10px;
+	  height: 2em;
+    z-index: 1;
+  }
+
+  & .BannerButton:hover {
+    background-color: #6189c9;
+  }
+}
+
+.PageContent {
+  max-height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-top: 5vh;
+}
+
+.ProjectContent {
+  display: grid;
+  grid-template-columns: 35.5em 35.5em;
+}
+
+@media (max-width: 510.98px) {
+  .ProjectContentTitle {
+    margin-left: 1em;
+  }
+  .TypingTag {
+    max-width: 50vh;
+  }
+  .ProjectContent {
+    display: grid;
+    grid-template-columns: 50vh;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .PageContent {
+    margin-top: 0;
+  }
+}
+@media ( min-width: 510.99px) and ( max-width: 912.98px) {
+  .ProjectContentTitle {
+    margin-left: 1em;
+  }
+  .ProjectContent {
+    display: grid;
+    grid-template-columns: 44vh;
+    max-width: 2em;
+    width: 1em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+  }
+  .PageContent {
+    margin-top: 0;
+  }
+}

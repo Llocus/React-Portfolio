@@ -1,0 +1,17 @@
+export default {
+    pageTitle: "Victor's Portfolio",
+    project: 'Project',
+    projects: 'Projects',
+    explore: 'Explore',
+    seemore: 'See more',
+    country: 'Country',
+    brazil: 'Brazil',
+    city: 'City',
+    age: 'Age',
+    skills: 'Skills',
+    coding: 'Coding',
+    resume: 'Resume',
+    ctadfg: 'Content 100% automatic, data taken from github!!!',
+    ctbbl: 'Content translated into browser language.',
+    pdreact: 'Portfolio developed in ReactJS.',
+}

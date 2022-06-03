@@ -1,0 +1,29 @@
+.FooterBanner {
+    background-color: rgb(0, 119, 255);
+    max-width: 35em;
+    height: 1.5em;
+    max-height: 4em;
+    font-size: 2em;
+    overflow: hidden;
+    text-align: center;
+
+    & span {
+        text-overflow:ellipsis;
+    }
+}
+@media ( max-width: 510.98px){
+    .FooterBanner {
+        height: 3.5em;
+        max-height: 3.5em;
+        overflow: initial;
+    }
+}
+
+@media ( min-width: 510.99px) and ( max-width: 912.98px) {
+    .FooterBanner {
+        max-height: 8em;
+        height: 2.5em;
+        max-height: 2.5em;
+        overflow: initial;
+    }
+}

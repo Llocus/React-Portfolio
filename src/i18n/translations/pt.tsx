@@ -1,0 +1,17 @@
+export default {
+    pageTitle: 'Portfolio do Victor',
+    project: 'Projeto',
+    projects: 'Projetos',
+    explore: 'Explorar',
+    seemore: 'Ver mais',
+    country: 'País',
+    brazil: 'Brasil',
+    city: 'Cidade',
+    age: 'Idade',
+    skills: 'Habilidades',
+    coding: 'Programação',
+    resume: 'Currículo',
+    ctadfg: 'O conteúdo é 100% automático, dados retirados do github!!!',
+    ctbbl: 'Conteúdo traduzido para linguagem do navegador.',
+    pdreact: 'Portfolio desenvolvido em ReactJS.',
+}

@@ -1,0 +1,213 @@
+.pro-sidebar-layout .pro-sidebar-header {
+    background-color: #242430;
+}
+
+.pro-sidebar-layout{
+    //max-width: 50vh !important;
+    //min-width: 50vh !important;
+    width: 100%;
+}
+@media (max-width: 510.98px) {
+    .pro-sidebar-layout{
+        //width: 27em;
+        //width: 90%;
+        max-width: 100vh;
+    }
+}
+
+
+@media (min-width: 910.98px) {
+    .SideBar {
+        margin: 5vh 3vh 5vh 15vh;
+    }
+}
+.SideBarBack{
+    color: white;
+    width: 4em;
+    font-size: 1.5em;
+    position: absolute;
+    margin-top: 1em;
+    margin-right: 1.5em;
+    top: 0;
+    right: 0;
+}
+
+.SideBar {
+    height: 100vh;
+    overflow-y: scroll;
+    max-height: 100vh;
+    box-shadow: 0 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.205);
+    max-width: 40px !important;
+}
+
+.SidebarMenu {
+    position: fixed;
+    text-align: left;
+    color: white;
+    background-color: #242430;
+    width: 100%;
+    height: 1.3em;
+    font-size: 2em;
+    z-index: 2;
+    & span {
+        background-color: #4287f5;
+        margin-left: 0.1em;
+        font-size: 1em;
+    }
+}
+
+.SideBarHeader-Content {
+    height: 20em;
+    width: 100%;
+    text-align: center;
+
+    & .Avatar {
+        margin-top: 5em;
+        margin-bottom: 1em;
+        height: 8em;
+        width: 8em;
+        margin-left: 30%;
+    }
+
+    & .Name {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: white;
+        font-family:Arial, Helvetica, sans-serif
+    }
+
+    & .Ocupation {
+        font-size: 1.2em;
+        font-weight: 100;
+        color: rgb(124, 124, 124);
+        font-family:Arial, Helvetica, sans-serif
+    }
+}
+
+.pro-sidebar-content {
+    .UserInfo {
+        width: 100%;
+        height: 100%;
+        background-color: #1e1e28;
+        font-size: 1.2em;
+    }
+    .Categories {
+        display: flex;
+        margin-bottom: 2em;
+    }
+    .Categories1 {
+        padding-top: 2em;
+        margin-left: 3em;
+        font-weight: 600;
+        color: white;
+        width: 10em;
+    }
+    .Categories2 {
+        padding-top: 2em;
+    }
+    .Contacts {
+        margin-left: 2em;
+        font-weight: bold;
+
+        & a:link { text-decoration: none; }
+
+        & a:visited { text-decoration: none; }
+        
+        & a:hover { text-decoration: none; }
+        
+        & a:active { text-decoration: none; }
+
+        & .Phone {
+            color: #4287f5;
+            & span {
+                margin-left: 0.5em;
+            }
+        }
+        & .Whatsapp {
+            color: #75a243;
+            & span {
+                margin-left: 0.5em;
+            }
+        }
+        & .Email {
+            color: white;
+            & span {
+                margin-left: 0.5em;
+                margin-bottom: 1em;
+            }
+        }
+    }
+    .Habilities {
+        & h4 {
+            margin-left: 1em;
+            color: white;
+        }
+        & .Circle {
+            width: 5em;
+            margin-left: 1.5em;
+        }
+        & .CirclePercentage {
+            position: absolute;
+            font-size: 1.2em;
+            margin-left: 2.3em;
+            margin-top: 2.4em;
+            color: white;
+
+            & + .CirclePercentage {
+                padding-left: 5.5em;
+            & + .CirclePercentage {
+                    padding-left: 10.8em;
+                }
+            }
+        }
+        & .CirclePercentageName {
+            margin-left: 2.5em;
+            & + .CirclePercentageName {
+                margin-left: 3.6em;
+            }
+        }
+    }
+    .Programming {
+        & h4 {
+            margin-left: 1em;
+            color: white;
+        }
+        & .ProgrammingLang {
+            width: 50em;
+            max-width: 17em;
+            margin-left: 2em;
+            & span {
+                margin-left: 16em;
+            }
+        }
+        & .Line {
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+            padding-bottom: 1em;
+        }
+    }
+
+    .ResumeDownload {
+        & button {
+            width: 100%;
+            height: 2em;
+            font-size: 1.5em;
+            background-color: #4287f5;
+            color: white;
+            border: transparent;
+            &:hover{
+                background-color: #9ab8e7;
+                color: #4287f5;
+
+            }
+        }
+    }
+    
+}
+
+.Divider {
+    color: #404049;
+    background-color: #404049;
+    width: 100%;
+    height: 0.2px;
+}
